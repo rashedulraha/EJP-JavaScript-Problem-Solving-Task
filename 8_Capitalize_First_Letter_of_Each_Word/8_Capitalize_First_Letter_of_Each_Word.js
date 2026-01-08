@@ -9,4 +9,4 @@ function capitalizeWords(str) {
   return capitalized.join(" ");
 }
 
-console.log(capitalizeWords("hello world")); // "Hello World"
+// console.log(capitalizeWords("hello world")); // "Hello World"

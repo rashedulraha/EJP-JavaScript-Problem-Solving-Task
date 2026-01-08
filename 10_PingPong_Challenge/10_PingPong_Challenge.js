@@ -13,4 +13,4 @@ function pingPong() {
 }
 
 // Run the function
-pingPong();
+// pingPong();
