@@ -20,9 +20,16 @@
 
 // console.log(countVowels("Rashedul"));
 
-function removeDuplicates(arr) {
-  return [...new Set(arr)];
-}
+// function removeDuplicates(arr) {
+//   return [...new Set(arr)];
+// }
 
-// Example
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4])); // [1, 2, 3, 4]
+// // Example
+// console.log(removeDuplicates([1, 2, 2, 3, 4, 4])); // [1, 2, 3, 4]
+
+// function sumArray(arr) {
+//   return arr.reduce((sum, num) => sum + num, 0);
+// }
+
+// // Example
+// console.log(sumArray([1, 2, 3, 4])); // 10
