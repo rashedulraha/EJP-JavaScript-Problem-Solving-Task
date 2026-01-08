@@ -55,14 +55,31 @@
 
 // console.log(capitalizeWords("hello world"));
 
-function factorial(n) {
-  let result = 1;
+// function factorial(n) {
+//   let result = 1;
 
-  for (let i = 2; i <= n; i++) {
-    result *= i; // result = result * i
+//   for (let i = 2; i <= n; i++) {
+//     result *= i; // result = result * i
+//   }
+
+//   return result;
+// }
+
+// console.log(factorial(5)); // 120
+
+function pingPong() {
+  for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("PingPong");
+    } else if (i % 3 === 0) {
+      console.log("Ping");
+    } else if (i % 5 === 0) {
+      console.log("Pong");
+    } else {
+      console.log(i);
+    }
   }
-
-  return result;
 }
 
-console.log(factorial(5)); // 120
+// Run the function
+pingPong();
